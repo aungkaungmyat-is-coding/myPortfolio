@@ -233,6 +233,36 @@ span {
     margin: 1rem 0 3rem;
 }
 
+.skills {
+    background: var(--second-bg-color);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.skills-container .skills-box {
+    position: relative;
+    border-radius: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+
+.skills-box img {
+    width: 55%;
+    padding-top: 3.5rem;
+    padding-left: 4.5rem;
+    margin-left: 2.5rem;
+}
+
+.skills-box img:hover {
+    box-shadow: var(--main-color);
+    transform: scale(1.02);
+}
+
 .portfolio {
     background: var(--second-bg-color);
 }
@@ -389,6 +419,7 @@ span {
     html {
         font-size: 55%;
     }
+
 }
 
 @media(max-width: 991px) {
