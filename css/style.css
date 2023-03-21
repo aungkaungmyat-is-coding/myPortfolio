@@ -256,6 +256,7 @@ span {
     padding-top: 3.5rem;
     padding-left: 4.5rem;
     margin-left: 2.5rem;
+    transition: .5s ease;
 }
 
 .skills-box img:hover {
